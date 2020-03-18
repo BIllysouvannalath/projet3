@@ -337,7 +337,7 @@ form {
     slider{
         display: block;
         width: 90%;
-        height: 10%;
+        height: 1%;
         padding-top: -5%;
         background-color: #212020;
         overflow: hidden !important;
