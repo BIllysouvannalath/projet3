@@ -322,7 +322,7 @@ form {
     }
     .portfolioimg{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
     }
 
     .mc{
@@ -332,9 +332,8 @@ form {
 
     .reseaux{
         background-color: #f7ca10;
-        margin-top:350px;
+        margin-top:160px;
         height: 350pt;
-        margin-top: 750px;
     }
     .reseaux__logo{
         display: grid;
