@@ -89,7 +89,7 @@ blockquote a{
 slider{
     display: block;
     width: 90%;
-    height: 50%;
+    height: 40%;
     background-color: #212020;
     overflow: hidden !important;
     position: absolute;
@@ -336,9 +336,8 @@ form {
     }
     slider{
         display: block;
-        width: 95%;
-        height: 30%;
-        padding-top: -10%;
+        width: 90%;
+        padding-top: -5%;
         background-color: #212020;
         overflow: hidden !important;
         position: absolute;
@@ -347,8 +346,7 @@ form {
         position: absolute;
         display: block;
         background-color: #212020;
-        width: 90%;
-        height: 30%;
+        width: 80%;
         animation: slide 40s infinite;
         overflow: hidden !important;
     }
