@@ -89,7 +89,7 @@ blockquote a{
 slider{
     display: block;
     width: 90%;
-    height: 40%;
+    height: 3%;
     background-color: #212020;
     overflow: hidden !important;
     position: absolute;
