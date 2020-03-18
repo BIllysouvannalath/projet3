@@ -14,7 +14,7 @@ header{
     width: 30%;
 }
 #background{
-    background-image: url('image\ background.png');
+    background-image: url('background.png');
     min-height: 800px; 
     min-width: 200%;
     margin-left: -50%;
