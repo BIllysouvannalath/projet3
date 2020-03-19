@@ -165,7 +165,7 @@ slide p{
     background-color: #f7ca10;
     height: 450pt;
     margin-left:0% ;
-    padding-top: 30%;
+    padding-top: 40%;
     width:100%;
     font-family: 'Open Sans', sans-serif;
 
@@ -370,7 +370,7 @@ form {
 
     .reseaux{
         background-color: #f7ca10;
-        padding-top: 130px;
+        padding-top: 40%;
         height: 350pt;
     }
     .reseaux__logo{
