@@ -7,6 +7,7 @@ body {
 img{
     vertical-align: bottom;
 }
+/*header*/
 header{
     overflow: hidden !important;
 }
@@ -14,7 +15,7 @@ header{
     width: 30%;
 }
 #background{
-    background-image: url('image/background.png');
+    background-image: url('/image/image-fond-parralax.jpg');
     min-height: 800px; 
     min-width: 200%;
     margin-left: -50%;
@@ -23,6 +24,17 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+#background h2{
+    color: white;
+    padding-top: 40%;
+    margin-left: 35%;
+}
+#background h3{
+    color: white;
+    margin-left: 35%;
+    width: 40%;
+}
+/*1er section, Portrait de Billy Souvannalath et histoire*/
 main{
     overflow: hidden !important;
 }
@@ -50,6 +62,7 @@ main{
     margin-left:4%;
     width: 90%;
 }
+/*2eme section, Les compètences*/
 .skills {
     background-color: #f7ca10;
     height: 350pt;
@@ -68,6 +81,7 @@ main{
 .skills1 i{
     margin-right: 1em;
 }
+/*3eme section, les différents témoignages, slider et blockquote*/
 .sondage{
     background-color: #212020;
     height: 400pt;
@@ -132,6 +146,7 @@ slide p{
     30.0001%{left: -100%; width: 0%;}
     100%{left: 100%; width: 0%;}
 }
+/*4eme sections, portfolio*/
 .portfolio{
     background-color:#F2F2F2;
     height: 1405pt;
@@ -161,6 +176,7 @@ slide p{
 
 	filter: grayscale(0%);
 }
+/*5eme sections, différents reseaux sociaux*/
 .reseaux{
     background-color: #f7ca10;
     height: 450pt;
@@ -207,6 +223,7 @@ slide p{
     padding: 20px 50px;
     position: relative;
 }
+/*6eme sections, formulaire de contact*/
 .contact{
     padding-top: 15%;
     font-family: 'Open Sans', sans-serif;
@@ -261,7 +278,6 @@ slide p{
   input[type="submit"]{
       
     border: none;
-    color: #000;
     transition: all ease 500ms;
     font-size: 16px;
   }
@@ -272,7 +288,6 @@ slide p{
     transform: scale(1.2);
     font-size: 20px;
     border: none;
-    padding-bottom: 10%;
   
   }
   
@@ -288,21 +303,24 @@ slide p{
     height: 48px;
     color: white;
   }
+  /*footer*/
 .footer{
-    background-color: #0000;
+    margin-top: 10%;
+    background-color: #000;
     height: 180pt;
-    color:#aaaaaa;
+
 }
 
 
 
 @media screen and (min-width: 940px){
+    /*header*/
     #logo img{
         display: none;
     }
     #background{
-        background-image: url('image/background.png');
-        min-height: 1000px; 
+        background-image: url('/image/image-fond-parralax.jpg');
+        min-height: 950px; 
         min-width: 200%;
         margin-left: -50%;
         background-attachment: fixed;
@@ -310,6 +328,17 @@ slide p{
         background-repeat: no-repeat;
         background-size: cover;
     }
+    #background h2{
+        color: white;
+        padding-top: 15%;
+        margin-left: 60%;
+    }
+    #background h3{
+        color: white;
+        margin-left: 60%;
+        width: 40%;
+    }
+    /*1er section, Portrait de Billy Souvannalath et histoire*/
     .toppage__gridme{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -319,6 +348,7 @@ slide p{
         border-radius: 55%;
         margin-left: 27%;
     }
+    /*2eme section, Les compètences*/
     .skills{
         height: 270pt;
     }
@@ -331,6 +361,7 @@ slide p{
     .skills1 p {
         width: 70%;
     }
+    /*3eme section, les différents témoignages, slider et blockquote*/
     .sondage{
 
         margin: -2%;
@@ -350,6 +381,7 @@ slide p{
         width: 80%;
         height: 40%;
     }
+    /*4eme sections, portfolio*/
     .portfolio h2{
         padding-bottom: 5%;
         padding-top: 5%;
@@ -370,7 +402,7 @@ slide p{
         width: 100%;
         height: 100%;
     }
-
+    /*5eme sections, différents reseaux sociaux*/
     .reseaux{
         background-color: #f7ca10;
         padding-top: 10%;
@@ -393,6 +425,7 @@ slide p{
     #logoc{
         margin-left: 44%;
     }
+    /*6eme sections, formulaire de contact*/
     .contact{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -401,9 +434,67 @@ slide p{
     .maincontact h1{
         display: flex;
         justify-content: left;
-    
-  
     }
+
+    .section__contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 10px 9.5%;
+      }
+      
+      .contact__label{
+        margin-left: 2%;
+        font-size: 13px;
+        color: #000;
+        margin-top: 14px;
+        margin-bottom: 7px;
+        display: block;
+      }
+      
+      .form{
+        width: 100%;
+      }
+      
+      input{
+        margin-left: 2%;
+        width: 80%;
+        height: 44px;
+        background: #fff;
+        border: 1px solid #000;
+        color: #000;
+      }
+      
+      input[type="submit"]{
+          
+        border: none;
+        transition: all ease 500ms;
+        font-size: 16px;
+      }
+      
+      input[type="submit"]:hover{
+        background: #000;
+        margin-left: 15px;
+        transform: scale(1.2);
+        font-size: 20px;
+        border: none;
+      
+      }
+      
+      textarea{
+        margin-left: 2%;
+        width: 80%;
+        margin-bottom: 11px;
+      }
+      
+      
+      .submit{
+        background: #000;
+        width: 142px;
+        height: 48px;
+        color: white;
+      }
 
 }
 
