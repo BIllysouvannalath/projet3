@@ -371,7 +371,7 @@ form {
 
     .reseaux{
         background-color: #f7ca10;
-        margin-top:60px;
+        padding-top: 130px;
         height: 350pt;
     }
     .reseaux__logo{
