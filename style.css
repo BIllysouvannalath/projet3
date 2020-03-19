@@ -15,7 +15,7 @@ header{
     width: 30%;
 }
 #background{
-    background-image: url('/image/image-fond-parralax.jpg');
+    background-image: url('image/image-fond-parralax.jpg');
     min-height: 800px; 
     min-width: 200%;
     margin-left: -50%;
@@ -319,7 +319,7 @@ slide p{
         display: none;
     }
     #background{
-        background-image: url('/image/image-fond-parralax.jpg');
+        background-image: url('image/image-fond-parralax.jpg');
         min-height: 950px; 
         min-width: 200%;
         margin-left: -50%;
