@@ -32,7 +32,7 @@
                     <p>Je m’appelle Billy Souvannalath, j’ai 18 ans, je suis né et je vis à Rouen. </p>
                     <h3>Mes échecs</h3>
                     <p>J’ai un esprit combattif, affûté par la pratique dès le collège du jeu d’échecs.
-                         Si je vous annonce que je me destine au marketing, serez-vous supris ? </p>
+                         Si je vous annonce que je me destine au marketing, serez-vous surpris ? </p>
                     <p>Le jeu d’échecs est incroyablement formateur. 
                         Pour gagner, il faut comprendre, beaucoup pratiquer et apprendre à avoir une bonne vision du jeu. </p>
                     <p>Formé à cette école, je me donne les moyens. Je veux maitriser mon environnement et ai pris l’habitude d’anticiper les coups de mes adversaires.
@@ -66,7 +66,7 @@
                  </div>
                  <div>
                     <h3><i class="fas fa-id-card-alt"></i>Maketing digital</h3>
-                    <p>SEO, SEA, veille concurrentiel, Business plan Canvas, réseaux sociaux, WordPress.</p>
+                    <p>SEO, SEA, veille concurrentielle, Business plan Canvas, réseaux sociaux, WordPress.</p>
                  </div>
             </div>
         </section>
@@ -77,8 +77,8 @@
             <blockquote>
                 <slider>
                     <slide><div>
-                        <p>Il est toujours joyeux, c’est une bête de travail, ne laisse jamais tomber,
-                             très gentil, très sociable et à toujours les bras ouverts.
+                        <p>Il est toujours joyeux, c’est une bête de travail, ne laisse jamais tomber.
+                             Très gentil, très sociable et à toujours les bras ouverts.
                         </p>
                         <footer>
                             <strong><a href="http://chloed.normandiedigitalschool.fr"> Chloé Delamarre</a></strong>
@@ -87,7 +87,7 @@
                       
                     <slide><div>
                         <p>Très à l’écoute, ouvert aux autres, sensible, mature et intelligent, têtu,
-                             honnête, franc, se prend pas au sérieux, fait attention à lui et prend toujours
+                             honnête, franc, ne se prend pas au sérieux, fait attention à lui et prend toujours
                               les bonnes décisions, il a beaucoup d’ambitions, il croit en lui.
                         </p>
                         <footer>
@@ -102,9 +102,9 @@
                         </footer>
                     </div></slide>
                     <slide><div>
-                            <p>Il aime aider les autres, il se préoccupe plus des autres que de lui, aime beaucoup rigoler,
-                                 avant de le connaître, on pourrait penser qu’il est timide.
-                                  Il a un esprit de compétiteur et à très envie de réussir.
+                            <p>Il aime aider les autres, il se préoccupe plus des autres que de lui, aime beaucoup rigoler.
+                                 Avant de le connaître, on pourrait penser qu’il est timide.
+                                  Il a un esprit de compétiteur et a très envie de réussir.
                             </p>
                             <footer>
                                 <strong><a href="http://thomasc.normandiedigitalschool.fr"> Thomas Carlus </a></strong>
@@ -152,27 +152,29 @@
             <div>
                 <h2 id="h2c">Envoyez-moi un mail</h2>
 
-                <form action="/ma-page-de-traitement" method="post">
-                    <div>
-                        <label for="first_name">Prénom</label>
-                        <p><input type="text" name="first_name" id="user_first_name"></p>
+                <form class="form" action="index.html" method="post">
+                    <div class="div__contact">
+                      <label for="n" class="contact__label">Nom *</label>
+                      <input type="text" id="n" name="n">
                     </div>
-                    <div>
-                        <label for="name">Nom</label>
-                        <p><input type="text" id="name" name="user_name"></p>
+                    <div class="div__contact">
+                      <label for="m" class="contact__label">Adresse mail *</label>
+                      <input type="email" id="m" name="m">
                     </div>
-                    <div>
-                        <label for="mail">Adresse e-mail</label>
-                        <p><input type="email" id="mail" name="user_mail"></p>
+                    <div class="div__contact">
+                      <label for="s" class="contact__label">Sujet *</label>
+                      <input type="text" id="s" name="s">
                     </div>
-                    <div>
-                        <label for="msg">Message</label>
-                        <p><textarea id="msg" name="user_message"></textarea></p>
+                    <div class="div__contact">
+                      <label for="m" class="contact__label">Message *</label>
+                      <textarea id="m" name="t" rows="7" cols="40"></textarea>
                     </div>
-                </form>
-                <a href=""><div class="button">
-                    Envoyez-moi
-                </div></a>
+              
+                    <div class="button">
+                      <input type="submit" class="submit" nam="submit" value="Valider">
+                    </div>
+                  </form>
+
             </div>
             </div>
         </section>
