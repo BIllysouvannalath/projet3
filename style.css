@@ -18,6 +18,7 @@ header{
     background-image: url('image/image-fond-parralax.jpg');
     min-height: 800px; 
     min-width: 200%;
+    margin-top: -3%;
     margin-left: -50%;
     background-attachment: fixed;
     background-position: center;
@@ -427,7 +428,7 @@ slide p{
     }
     .btn {
         display: block;
-        padding: 20px 15px;
+        padding: 20px 10px;
         margin: 100px;
         background-color: #212020;
         color: #fff;
